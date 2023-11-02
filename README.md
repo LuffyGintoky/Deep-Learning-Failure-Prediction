@@ -1,28 +1,37 @@
 # Deep-Learning-Failure-Prediction
 
+
 ## Description
-Este repositorio contiene notebooks de Jupyter para el análisis exploratorio de datos y modelado de redes neuronales aplicados a un conjunto de datos específico.
+This repository contains Jupyter notebooks for exploratory data analysis and neural network modeling applied to a dataset of industrial system sensor readings. The project demonstrates the application of Long Short-Term Memory (LSTM) networks to classify and predict potential faults, emphasizing the importance of advanced machine learning models in detecting anomalies in time-series data.
+
+## Objectives
+- To design and evaluate LSTM-based models for fault detection in industrial systems.
+- To investigate different LSTM architectures and their efficacy in recognizing and predicting faults based on sensor data.
+- To provide a methodological framework that could be adapted to similar industrial fault detection tasks.
+
+## Dataset Overview
+The dataset comprises various sensor readings collected over time from an industrial system. It is designed to facilitate the development and evaluation of machine learning models that can detect and predict operational anomalies.
 
 ## Notebooks
-1. `eda.ipynb` - Análisis Exploratorio de Datos (EDA)
-   - Importación de datos y librerías necesarias.
-   - Inspección inicial y resumen de los datos.
-   - Limpieza y preparación de datos.
-   - Visualización de datos para entender las distribuciones y relaciones.
+1. `eda.ipynb` - Exploratory Data Analysis (EDA)
+   - Data import and initial inspection.
+   - Cleaning and preparation, ensuring data quality for model input.
+   - Visualization of sensor data distributions and temporal dynamics.
 
-2. `nn.ipynb` - Modelado de Redes Neuronales (NN)
-   - Preprocesamiento de datos, incluyendo estandarización y codificación one-hot.
-   - Construcción de modelos de redes neuronales utilizando Keras.
-   - Entrenamiento de modelos y evaluación de métricas de rendimiento.
-   - Visualización de resultados y análisis de errores.
+2. `nn.ipynb` - Neural Network Modeling (NN)
+   - Data preprocessing, including sequence generation for LSTM input.
+   - Construction and training of LSTM networks with TensorFlow and Keras.
+   - Model performance evaluation, focusing on accuracy and robustness.
 
-## Installation
-Instrucciones sobre cómo clonar el repositorio y ejecutar los notebooks en un entorno local.
+## Methodology
+- Meticulous data preparation and feature engineering to capture relevant temporal patterns.
+- Exploration of various LSTM architectures to identify the most effective model structure.
+- Rigorous evaluation of models to understand their predictive performance and system dynamics.
 
-```bash
-git clone <repository-url>
-cd <repository-name>
-# Se recomienda usar un entorno virtual
-python -m venv venv
-source venv/bin/activate  # Windows: .\venv\Scripts\activate
-pip install -r requirements.txt
+## Future Improvements
+- Implementation of cross-validation techniques to ensure model generalizability.
+- Testing of more complex neural network architectures, such as Convolutional Neural Networks (CNNs) and more sophisticated RNNs.
+- Enhancement of feature selection to improve model efficiency and performance.
+- Development of a more interactive and informative visualization of model results and diagnostics.
+
+
