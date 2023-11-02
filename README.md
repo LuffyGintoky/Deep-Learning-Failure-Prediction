@@ -10,7 +10,7 @@ This repository contains Jupyter notebooks for exploratory data analysis and neu
 - To provide a methodological framework that could be adapted to similar industrial fault detection tasks.
 
 ## Dataset Overview
-The dataset comprises various sensor readings collected over time from an industrial system. It is designed to facilitate the development and evaluation of machine learning models that can detect and predict operational anomalies.
+The dataset Tennessee Eastman Process is popular benchmark for failure prediction and comprises various sensor readings collected over time from an industrial system. It is designed to facilitate the development and evaluation of machine learning models that can detect and predict operational anomalies.
 
 ## Notebooks
 1. `eda.ipynb` - Exploratory Data Analysis (EDA)
