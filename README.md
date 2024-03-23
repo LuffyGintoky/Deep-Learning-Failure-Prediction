@@ -1,12 +1,12 @@
-# Deep-Learning-Failure-Prediction
+# Deep-Learning-Failure-Diagnosis
 
 
 ## Description
-This repository contains Jupyter notebooks for exploratory data analysis and neural network modeling applied to a dataset of industrial system sensor readings. The project demonstrates the application of Long Short-Term Memory (LSTM) networks to classify and predict potential faults, emphasizing the importance of advanced machine learning models in detecting anomalies in time-series data.
+This repository contains Jupyter notebooks for exploratory data analysis and neural network modeling applied to a dataset of industrial system sensor readings. The project demonstrates the application of Long Short-Term Memory (LSTM) networks to classify faults types, emphasizing the importance of advanced machine learning models in detecting anomalies in time-series data.
 
 ## Objectives
-- To design and evaluate LSTM-based models for fault detection in industrial systems.
-- To investigate different LSTM architectures and their efficacy in recognizing and predicting faults based on sensor data.
+- To design and evaluate LSTM-based models for fault diagnosis in industrial systems.
+- To investigate different LSTM architectures and their efficacy in recognizing and diagnozing faults based on sensor data.
 - To provide a methodological framework that could be adapted to similar industrial fault detection tasks.
 
 ## Dataset Overview
